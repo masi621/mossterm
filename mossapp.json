@@ -1,0 +1,7 @@
+{
+  "name": "MOSS Terminal",
+  "exec": "moss-terminal",
+  "icon": "utilities-terminal",
+  "terminal": false,
+  "categories": "System;Utility;Development;"
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moss-terminal"
+version = "0.1.0"
+description = "A simple customizable terminal-style app for DebianMOSS"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "masi" }
+]
+license = { text = "Apache-2.0" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Environment :: X11 Applications :: GTK",
+  "Topic :: Terminals :: Terminal Emulators/X Terminals"
+]
+
+[project.scripts]
+moss-terminal = "moss_terminal.app:main"
+
+[tool.setuptools]
+packages = ["moss_terminal"]
